@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc116d144592453468350539e38b7abd
+guid: 7e74aaa8c032a88498025a5f289c981a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: left_0
+      name: brush_top_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 23
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d7927e954493449819ccdcaccaffaf
-      internalID: -852218568
+      spriteID: 7ca254bd46bb6894eb301312c317bf4c
+      internalID: -1032807979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left_1
+      name: brush_top_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 6
         y: 0
-        width: 16
-        height: 23
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9badf92f1237f0429ed7fbca18bf0d5
-      internalID: 230832956
+      spriteID: 3def32891985bbd4c992137ef6552b64
+      internalID: 1437778725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left_2
+      name: brush_top_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 12
         y: 0
-        width: 16
-        height: 23
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc93b3516d78cf24ca17d721ff9e7367
-      internalID: -1807844851
+      spriteID: d274d0f544240514f8cfe7bc76d478ac
+      internalID: -1443836023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: left_3
+      name: brush_top_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 18
         y: 0
-        width: 16
-        height: 23
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08c983cbfbbf5e841b335bb1c3d2cb6a
-      internalID: -406881516
+      spriteID: afa4584b5e888c84db580f82372f734c
+      internalID: -1533962963
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      left_0: -852218568
-      left_1: 230832956
-      left_2: -1807844851
-      left_3: -406881516
+      brush_top_0: -1032807979
+      brush_top_1: 1437778725
+      brush_top_2: -1443836023
+      brush_top_3: -1533962963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -42,6 +42,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\player\Anima.cs" />
      <Compile Include="Assets\Scripts\player\Movements.cs" />
+     <Compile Include="Assets\Scripts\player_items\Brush.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

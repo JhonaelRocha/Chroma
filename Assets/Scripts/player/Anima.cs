@@ -8,6 +8,9 @@ public class Anima : MonoBehaviour
     private Animator anim;
     private Movements movements;
     private bool isRight;
+    public bool getIsRight(){
+        return isRight;
+    }
     void Start()
     {
         isRight = true;
@@ -18,16 +21,22 @@ public class Anima : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(movements.getMoveH() != 0 || movements.getMoveV() != 0){
+        if(movements.getMoveH() != 0){
             if(movements.getMoveH() > 0){
                 
-                 anim.SetInteger("int",1); 
-                 isRight = true;
+                anim.SetInteger("int",1); 
+                isRight = true;
             }
             if(movements.getMoveH() < 0){
                 anim.SetInteger("int",2);
                 isRight = false;
-            }  
+            }
+        }else if(movements.getMoveV() != 0){
+            if(isRight){
+                anim.SetInteger("int",1); 
+            }else{
+                anim.SetInteger("int",2);
+            }
         }else if(isRight){
             anim.SetInteger("int",11);
         }else{

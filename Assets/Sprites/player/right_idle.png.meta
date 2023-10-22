@@ -113,10 +113,10 @@ TextureImporter:
       name: right_idle_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
         width: 16
-        height: 29
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: right_idle_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 16
         y: 0
         width: 16
-        height: 28
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,6 +147,48 @@ TextureImporter:
       bones: []
       spriteID: c3db3f8c4039a46438004bb7c1409281
       internalID: -235851405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_idle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77b965fb9f207549b82d96eee238f0e
+      internalID: 232454227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_idle_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1361cdeedaeab949a799ac21cf118c3
+      internalID: -510378020
       vertices: []
       indices: 
       edges: []
@@ -164,6 +206,8 @@ TextureImporter:
     nameFileIdTable:
       right_idle_0: -823178551
       right_idle_1: -235851405
+      right_idle_2: 232454227
+      right_idle_3: -510378020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

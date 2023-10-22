@@ -113,10 +113,10 @@ TextureImporter:
       name: left_idle_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
         width: 16
-        height: 29
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: left_idle_1
       rect:
         serializedVersion: 2
-        x: 41
+        x: 16
         y: 0
         width: 16
-        height: 28
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,6 +147,48 @@ TextureImporter:
       bones: []
       spriteID: 5a199228348f4e6498a6eeb322c3a0dd
       internalID: -1160328523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_idle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8f03128d4c1df48bd67dfffcd6fc21
+      internalID: -359606919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_idle_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb2d0993f896d4080d7bc47698aaa0
+      internalID: 237866647
       vertices: []
       indices: 
       edges: []
@@ -164,6 +206,8 @@ TextureImporter:
     nameFileIdTable:
       left_idle_0: 172578664
       left_idle_1: -1160328523
+      left_idle_2: -359606919
+      left_idle_3: 237866647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
