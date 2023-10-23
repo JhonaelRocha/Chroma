@@ -115,8 +115,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6
-        height: 7
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: brush_top_1
       rect:
         serializedVersion: 2
-        x: 6
+        x: 7
         y: 0
-        width: 6
-        height: 7
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: brush_top_2
       rect:
         serializedVersion: 2
-        x: 12
+        x: 14
         y: 0
-        width: 6
-        height: 7
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: brush_top_3
       rect:
         serializedVersion: 2
-        x: 18
+        x: 21
         y: 0
-        width: 6
-        height: 7
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
