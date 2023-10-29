@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2430455635614381195}
   - component: {fileID: 2522705485676066746}
   - component: {fileID: 4001825583009862165}
-  - component: {fileID: 2804895298015150850}
   - component: {fileID: 6542172452362687567}
+  - component: {fileID: 5283125140956297914}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -102,7 +102,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brush: {fileID: 0}
   defaultColor: {r: 0, g: 1, b: 0, a: 1}
---- !u!65 &2804895298015150850
+--- !u!114 &6542172452362687567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498219408621878706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dc979ed23c8474698646e2c323e250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: 48bbf80c91270a547a9f2c0afe3f2f57, type: 3}
+--- !u!65 &5283125140956297914
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,21 +134,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5, y: 1.5, z: 0.2}
+  m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6542172452362687567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5498219408621878706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42dc979ed23c8474698646e2c323e250, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursor: {fileID: 2800000, guid: 48bbf80c91270a547a9f2c0afe3f2f57, type: 3}
 --- !u!1 &6066221973340141832
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,11 +237,11 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.1
   m_Height: 0.9890398
   m_Direction: 1
   m_Center: {x: 0, y: 0.07785326, z: 0}
